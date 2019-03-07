@@ -1,0 +1,23 @@
+{
+  "name": "basewebsite",
+  "version": "1.0.0",
+  "description": "A basic website template with live reload.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckovachNRCC/basewebsite.git"
+  },
+  "author": "C. Christopher Kovach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ckovachNRCC/basewebsite/issues"
+  },
+  "homepage": "https://github.com/ckovachNRCC/basewebsite#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "livereload": "^0.7.0"
+  }
+}
