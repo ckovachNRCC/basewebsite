@@ -1,0 +1,48 @@
+div {
+    border:1px solid black;
+}
+
+#box1 {
+    height:150px;
+    background-color:dodgerblue;
+    color: #FFF;
+}
+
+#formtitle {
+    text-align:center;
+
+    margin-top:80px;
+}
+
+form {
+    text-align:center;
+}
+
+input {
+    display:block;
+    margin: 20px auto;
+    width: 85%;
+    padding:5px;
+}
+
+#forgot {
+    display:block;
+    font-weight:bold;
+    height:100px;
+}
+
+#seperator {
+    width: 10%;
+    height:2px;
+    background-color:dodgerblue;
+    margin-bottom:40px;
+}
+
+#submit {
+    width:85%;
+    background-color:dodgerblue;
+    color:white;
+    font-weight:bold;
+    border-radius:6px;
+    height:50px;
+}
