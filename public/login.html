@@ -17,11 +17,14 @@
     </div>
     <div id="box2">
         <form>
+            <p id="invalidlogin">Username or password was invalid. Please try again. <a href="forgot.html">Did you forget your password?</a></p>
+            <p id="emailwarning">Email is required and must be formatted correctly: name@email.com</p>
             <input type="text" id="email" placeholder="email"/>
+            <p id="passwarning">Password is required to be at least 3 characters.</p>
             <input type="password" id="password" placeholder="********"/>
-            <a href="something.html" id="forgot">Forgot password or username?</a>
+            <a href="forgot.html" id="forgot">Forgot password or username?</a>
             <hr id="seperator" />
-            <button id="submit" type="submit">Submit</button>
+            <button id="submit" class="submit submitinactive"  type="submit">Submit</button>
         </form>
     </div>
 

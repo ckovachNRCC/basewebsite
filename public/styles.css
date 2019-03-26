@@ -22,7 +22,7 @@ input {
     display:block;
     margin: 20px auto;
     width: 85%;
-    padding:5px;
+    padding:6px;
 }
 
 #forgot {
@@ -38,11 +38,40 @@ input {
     margin-bottom:40px;
 }
 
-#submit {
+.submit {
     width:85%;
     background-color:dodgerblue;
     color:white;
     font-weight:bold;
     border-radius:6px;
     height:50px;
+}
+
+/* New Styles for Validation */
+#invalidlogin {
+    margin:30px;
+    padding:20px;
+    background-color:#FFEEEE;
+    border: 2px red solid;
+    border-radius:4px;
+}
+
+#emailwarning {
+    font-weight:bold;
+    color:red;
+    text-align:left;
+    margin-left:7.5%;
+    margin-bottom:-15px;
+}
+
+#passwarning {
+    font-weight:bold;
+    color:red;
+    text-align:left;
+    margin-left:7.5%;
+    margin-bottom:-15px;
+}
+
+.submitinactive {
+    background-color:gray;
 }
