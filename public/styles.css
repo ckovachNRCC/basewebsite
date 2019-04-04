@@ -54,6 +54,7 @@ input {
     background-color:#FFEEEE;
     border: 2px red solid;
     border-radius:4px;
+    display:none;
 }
 
 #emailwarning {
@@ -62,6 +63,7 @@ input {
     text-align:left;
     margin-left:7.5%;
     margin-bottom:-15px;
+    display:none;
 }
 
 #passwarning {
@@ -70,6 +72,7 @@ input {
     text-align:left;
     margin-left:7.5%;
     margin-bottom:-15px;
+    display:none;
 }
 
 .submitinactive {

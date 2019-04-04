@@ -1,0 +1,29 @@
+body {
+    margin:20px;
+}
+
+#tasklist {
+    list-style-type: none;
+}
+
+.listitem {
+    border-top: 1px solid lightgray;
+    padding:8px;
+}
+
+.user {
+    /* font-weight: bold; */
+    color:gray;
+    margin-right:15px;
+}
+
+.task {
+    font-weight:bold;
+    width:50%;
+    margin-right:30px;
+}
+
+.completed {
+    border-left: 1px solid lightgray;
+    padding-left:20px;
+}
